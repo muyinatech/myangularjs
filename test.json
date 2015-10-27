@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "562a4077fa485c101af431ac",
+    "name": "Next",
+    "url": "next.co.uk",
+    "twitter": "nextofficial",
+    "__v": 0,
+    "categories": [
+      "Clothing",
+      "Shoes",
+      "Furniture"
+    ]
+  },
+  {
+    "_id": "562a485e60a1eb0823ff4f97",
+    "name": "Debenhams",
+    "url": "debenhams.co.uk",
+    "twitter": "Debenhams",
+    "__v": 0,
+    "categories": [
+      "Clothing",
+      "Shoes",
+      "Furniture"
+    ]
+  }
+]

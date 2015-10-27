@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+</head>
+<body>
+
+<div ng-app="myApp" ng-controller="myCtrl">
+    <p>{{ x1 }}</p>
+
+    <p>{{ x2 }}</p>
+
+    <p>{{ x3 }}</p>
+
+    <p>Is a String?{{ x4 }}</p>
+
+    <p>Is a Number?{{ x5 }}</p>
+</div>
+
+<script>
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope) {
+    $scope.x1 = "JOHN";
+    $scope.x2 = angular.lowercase($scope.x1); // lowercase global function
+    $scope.x3 = angular.uppercase($scope.x1); // lowercase global function
+    $scope.x4 = angular.isString($scope.x1); // determines if a variable is a String
+    $scope.x5 = angular.isString($scope.x1); // determines if a variable is a Number
+});
+
+</script>
+
+</body>
+</html>
