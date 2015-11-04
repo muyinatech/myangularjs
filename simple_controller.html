@@ -52,7 +52,9 @@
         </tr>
     </table>
 	<img ng-src="{{ product.image}}">
-	  <p class="likes" ng-click="plusOne($index)">+ {{product.likes}}</p> 
+	  <p class="likes" ng-click="plusOne($index)">+ {{product.likes}}</p>
+
+  <app-info info="move"></app-info><!-- use application variable move to use in app-info template -->
 
 </div>
    <!-- Modules -->
@@ -60,6 +62,9 @@
 
     <!-- Controllers -->
 <script src="simple_controller.js"></script>
+
+<!-- directives -->
+    <script src="js/directives/appInfo.js"></script>
 
 </body>
 </html>

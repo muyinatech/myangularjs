@@ -17,6 +17,13 @@ app.controller('myCtrl', function($scope) { // define two properties in the mode
     $scope.product = { name: 'The Book of Trees', price: 20, currentdate : new Date(), image: 'Koala.jpg', likes: 0}
 	
 	$scope.plusOne =  function(index) { 
-  $scope.product.likes += 1; 
-};
+  $scope.product.likes += 1;
+    };
+
+  $scope.move = {
+    icon: 'img/move.jpg',
+    title: 'MOVE',
+    developer: 'MOVE, Inc.',
+    price: 0.99
+  };
 });
